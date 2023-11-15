@@ -1,9 +1,18 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// enum Status { codesmell: dispensable
+//     GREEN
+// }
+
+// fix
 enum Status {
-    GREEN
-}
+    GREEN,
+    YELLOW,
+    ORANGE,
+    BLUE,
+    RED
+ }
 
 public class Order {
     private String orderId;
