@@ -14,12 +14,12 @@ public class Runner {
 
         Product product1 = new Product("Gadget", dimensions1, 3.30, manufacturer1);
         Product product2 = new Product("Watch", dimensions2, 5.30, manufacturer2);
-        Customer customer = new Customer("John Doe", "123 Main St", new String[]{"Order1", "Order2"}, 100);
+        Customer customer = new Customer("John Doe", "123 Main St", new String[]{"Order1", "Order2"}, 100, "", "");
 
         ReportGenerator reportGenerator = new ReportGenerator();
 
         LoginService loginService = new LoginService();
-        User user = new User("Alice", "alice@example.com", "password123");
+        Customer user = new Customer("Alice", "", new String[]{}, 0, "alice@example.com", "password123");
 
         // Inventory Management
         inventoryManager.manageInventory("add", "Watch", 10);
