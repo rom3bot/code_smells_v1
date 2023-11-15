@@ -22,9 +22,9 @@ public class Runner {
         User user = new User("Alice", "alice@example.com", "password123");
 
         // Inventory Management
-        inventoryManager.manageInventory("add", "Watch", 10);
-        inventoryManager.manageInventory("add", "Gadget", 50);
-        inventoryManager.manageInventory("add", "Lamp", 25);
+        inventoryManager.manageInventory("Watch", 10);
+        inventoryManager.manageInventory("Gadget", 50);
+        inventoryManager.manageInventory("Lamp", 25);
 
         // Order Processing
         Order order = new Order("10");
